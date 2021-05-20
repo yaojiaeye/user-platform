@@ -16,3 +16,4 @@ https://gitee.com/liujiaxue/user-platform.git
 git@github.com:yaojiaeye/user-platform.git
 sh bin/mqadmin clusterList -n 192.168.43.
 怎么比较暂存区和HEAD所含文件的差异？
+不同人修改了同文件的同一区域如何处理
