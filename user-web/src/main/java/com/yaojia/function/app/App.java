@@ -6,6 +6,6 @@ package com.yaojia.function.app;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("ccccccccccccccccccccccccccccccc");
+        System.out.println("bbbbbbbbbbbbbbbb");
     }
 }
