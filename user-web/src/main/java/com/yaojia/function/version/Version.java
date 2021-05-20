@@ -5,4 +5,8 @@ package com.yaojia.function.version;
  * @Create: 2021/5/20
  */
 public class Version {
+
+
+
+
 }
