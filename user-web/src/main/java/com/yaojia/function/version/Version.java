@@ -6,7 +6,5 @@ package com.yaojia.function.version;
  */
 public class Version {
 
-
-
-
+    private String name;
 }
