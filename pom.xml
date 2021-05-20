@@ -8,6 +8,12 @@
     <artifactId>user-platform</artifactId>
     <name>User Platform ${revision}</name>
     <version>${revision}</version>
+
+
+
+
+
+
     <modules>
         <module>my-web-mvc</module>
         <module>user-web</module>
