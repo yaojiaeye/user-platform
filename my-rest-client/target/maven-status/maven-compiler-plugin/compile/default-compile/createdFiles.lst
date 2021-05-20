@@ -1,0 +1,12 @@
+yaojia\rest\client\HttpGetInvocation.class
+yaojia\rest\client\DefaultRuntimeDelegate.class
+yaojia\rest\client\util\URLUtils.class
+yaojia\rest\client\DefaultClient.class
+yaojia\rest\client\core\DefaultUriBuilder.class
+yaojia\rest\client\DefaultInvocationBuilder.class
+yaojia\rest\client\core\DefaultResponseBuilder.class
+yaojia\rest\client\util\PathUtils.class
+yaojia\rest\client\core\DefaultResponse.class
+yaojia\rest\client\DefaultVariantListBuilder.class
+yaojia\rest\client\ImmutableWebTarget.class
+yaojia\rest\client\DefaultClientBuilder.class
