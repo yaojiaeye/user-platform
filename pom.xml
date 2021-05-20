@@ -23,6 +23,7 @@
         <module>my-cache</module>
     </modules>
     <packaging>pom</packaging>
+    <packaging>pom</packaging>
 
     <properties>
         <revision>v1-SNAPSHOT</revision>
