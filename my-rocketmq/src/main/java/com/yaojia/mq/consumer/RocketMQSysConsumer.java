@@ -13,7 +13,7 @@ import java.util.List;
  * @Author : yaojia
  * @Create: 2021/5/20
  */
-public class RocketMQConsumer {
+public class RocketMQSysConsumer {
 
 
     /**
