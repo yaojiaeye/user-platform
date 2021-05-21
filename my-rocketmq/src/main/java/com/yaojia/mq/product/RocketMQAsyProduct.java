@@ -1,12 +1,11 @@
 package com.yaojia.mq.product;
 
-import org.apache.rocketmq.client.exception.MQBrokerException;
 import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
+import org.apache.rocketmq.client.producer.SendCallback;
 import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.common.message.Message;
 import org.apache.rocketmq.remoting.common.RemotingHelper;
-import org.apache.rocketmq.remoting.exception.RemotingException;
 
 import java.io.UnsupportedEncodingException;
 
@@ -16,7 +15,7 @@ import java.io.UnsupportedEncodingException;
  * @Author : yaojia
  * @Create: 2021/5/20
  */
-public class RocketMQProduct {
+public class RocketMQAsyProduct {
 
     private static DefaultMQProducer producer;
 
@@ -27,6 +26,9 @@ public class RocketMQProduct {
 
         try {
             producer.start();
+
+            // 设置异步发送消息失败时候重试的次数
+            producer.setRetryTimesWhenSendAsyncFailed(0);
         } catch (MQClientException e) {
             e.printStackTrace();
         }
@@ -46,8 +48,16 @@ public class RocketMQProduct {
         );
 
         try {
-            SendResult sendResult = producer.send(msg);
-            System.out.println("%s%n"+sendResult);
+            producer.send(msg, new SendCallback() {
+                @Override
+                public void onSuccess(SendResult sendResult) {
+                    System.out.println("%s%n"+sendResult);
+                }
+                @Override
+                public void onException(Throwable throwable) {
+                    System.out.println("%s%n"+throwable);
+                }
+            });
         } catch (Exception e) {
 
         }

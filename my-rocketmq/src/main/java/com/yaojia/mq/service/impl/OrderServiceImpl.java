@@ -1,10 +1,8 @@
 package com.yaojia.mq.service.impl;
 
 import com.yaojia.mq.pojo.Order;
-import com.yaojia.mq.product.RocketMQProduct;
+import com.yaojia.mq.product.RocketMQSysProduct;
 import com.yaojia.mq.service.OrderService;
-
-import java.io.UnsupportedEncodingException;
 
 /**
  *
@@ -18,7 +16,7 @@ public class OrderServiceImpl implements OrderService {
 
         try {
             String message = "hello world !!!";
-            RocketMQProduct.sendMessage("TopicOrderPaySuccess",message);
+            RocketMQSysProduct.sendMessage("TopicOrderPaySuccess",message);
         } catch (Exception e) {
             e.printStackTrace();
         }
