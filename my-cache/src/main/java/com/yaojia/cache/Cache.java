@@ -8,5 +8,10 @@ public class Cache {
         System.out.println("CCCCCCCCCCCCCCCCC");
         System.out.println("BBBBBBBBBBBBBBBBB");
         System.out.println("DDDDDDDDDDDDDDDDDD");
+        System.out.println("DDDDDDDDDdcccDDDDDDDDD");
+        System.out.println("DDDDDDDDgggDDDDDDDDDD");
+        System.out.println("DDDDDDDDbbbDDDDDDDDDD");
+        System.out.println("DDDDDDDDDmmmmmDDDDDDDDD");
+
     }
 }
