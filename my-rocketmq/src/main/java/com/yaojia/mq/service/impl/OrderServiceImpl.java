@@ -1,5 +1,7 @@
 package com.yaojia.mq.service.impl;
 
+import org.springframework.stereotype.Service;
+
 import com.yaojia.mq.pojo.Order;
 import com.yaojia.mq.product.RocketMQSysProduct;
 import com.yaojia.mq.service.OrderService;
@@ -9,6 +11,7 @@ import com.yaojia.mq.service.OrderService;
  * @Author : yaojia
  * @Create: 2021/5/20
  */
+@Service
 public class OrderServiceImpl implements OrderService {
 
     @Override
@@ -16,7 +19,7 @@ public class OrderServiceImpl implements OrderService {
 
         try {
             String message = "hello world !!!";
-            RocketMQSysProduct.sendMessage("TopicOrderPaySuccess",message);
+            RocketMQSysProduct.sendMessage("TopicOrderPaySuccess", message);
         } catch (Exception e) {
             e.printStackTrace();
         }
