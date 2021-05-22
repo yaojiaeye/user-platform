@@ -17,26 +17,26 @@ public class RocketMQAsyConsumer {
     /**
      * mq消费消息
      */
-    public static void start(){
-        new Thread(){
+    public static void start() {
+        new Thread() {
             @Override
             public void run() {
-                try{
+                try {
                     DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("order_product_group");
                     consumer.setNamesrvAddr("192.168.43.139:9876");
                     consumer.subscribe("TopicOrderPaySuccess", "*");
                     consumer.registerMessageListener(new MessageListenerConcurrently() {
                         @Override
                         public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> msgs,
-                                                                        ConsumeConcurrentlyContext context) {
-                     c
+                            ConsumeConcurrentlyContext context) {
+
                             return ConsumeConcurrentlyStatus.CONSUME_SUCCESS;
                         }
                     });
                     consumer.start();
 
                     System.out.printf("Consumer Started.%n");
-                }catch (Exception e){
+                } catch (Exception e) {
 
                 }
             }

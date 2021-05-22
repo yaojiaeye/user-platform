@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.geekbang.projects:my-cache:v1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/geekbang/projects/my-cache/v1-SNAPSHOT/my-cache-v1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/org/geekbang/projects/my-cache/v1-SNAPSHOT/my-cache-v1-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/geekbang/projects/my-cache/v1-SNAPSHOT/my-cache-v1-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
