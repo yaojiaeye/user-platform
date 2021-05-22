@@ -5,13 +5,6 @@ package com.yaojia.cache;
  **/
 public class Cache {
     public static void main(String[] args) {
-        System.out.println("CCCCCCCCCCCCCCCCC");
-        System.out.println("BBBBBBBBBBBBBBBBB");
-        System.out.println("DDDDDDDDDDDDDDDDDD");
-        System.out.println("DDDDDDDDDdcccDDDDDDDDD");
-        System.out.println("DDDDDDDDgggDDDDDDDDDD");
-        System.out.println("DDDDDDDDbbbDDDDDDDDDD");
-        System.out.println("DDDDDDDDDmmmmmDDDDDDDDD");
-
+        System.out.println("eeeeeeeeeeeeeeeeeeeeeeeeCCCCC");
     }
 }
