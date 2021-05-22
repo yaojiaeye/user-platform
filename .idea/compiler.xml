@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
-    </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="little-project-rocketmq" target="1.8" />
       <module name="my-caches" target="8" />
       <module name="my-rest-client" target="8" />
       <module name="my-rocketmq" target="8" />

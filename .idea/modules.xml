@@ -7,7 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/my-rocketmq/my-rocketmq.iml" filepath="$PROJECT_DIR$/my-rocketmq/my-rocketmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-session/my-session.iml" filepath="$PROJECT_DIR$/my-session/my-session.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-web-mvc/my-web-mvc.iml" filepath="$PROJECT_DIR$/my-web-mvc/my-web-mvc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/user-platform.iml" filepath="$PROJECT_DIR$/.idea/user-platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-platform.iml" filepath="$PROJECT_DIR$/user-platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-web/user-web.iml" filepath="$PROJECT_DIR$/user-web/user-web.iml" />
     </modules>
   </component>
